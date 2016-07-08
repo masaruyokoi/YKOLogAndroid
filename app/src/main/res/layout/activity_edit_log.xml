@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="asia.netinfta.ykolog.EditLog">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:id="@+id/textCallsign" />
+
+            <EditText
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:text="CallSign"
+                android:fontFamily="monospace"
+                android:id="@+id/editCallsign" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="His"
+                android:id="@+id/textRrst" />
+
+            <EditText
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:text="RRST"
+                android:fontFamily="monospace"
+                android:id="@+id/editRrst" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My"
+                android:id="@+id/textSrst" />
+
+            <EditText
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:text="SRST"
+                android:fontFamily="monospace"
+                android:id="@+id/editSrst" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/textDate" />
+
+            <EditText
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:text="Date"
+                android:fontFamily="monospace"
+                android:id="@+id/editDate" />
+
+            <EditText
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:text="Time"
+                android:fontFamily="monospace"
+                android:id="@+id/editTime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TimeZone"
+                android:fontFamily="monospace"
+                android:id="@+id/textTimeZone" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Now"
+                android:id="@+id/buttonTimeNow" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freq"
+                android:id="@+id/textFreq" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editFreq" />
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="Mode"
+                android:id="@+id/spinnerMode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PWR"
+                android:id="@+id/textPower" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watt"
+                android:id="@+id/editPower" />
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="Rig"
+                android:id="@+id/spinnerRig" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QRA"
+                android:id="@+id/textQRA" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/editQRA" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QTH"
+                android:id="@+id/textQTH" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/editQTH" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:id="@+id/editQTHCode" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lookup"
+                android:id="@+id/buttonQTHLookup" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My"
+                android:id="@+id/textMyInfo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QTH"
+                android:id="@+id/textMyQTH" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/editMyQTH" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:id="@+id/editMyQTHCode" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lookup"
+                android:id="@+id/buttonMyQTHLookup" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QSL Card"
+                android:id="@+id/textQSLCard" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need"
+                android:id="@+id/checkBoxQSLCardNeed" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sent"
+                android:id="@+id/checkBoxQSLCardSent" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Received"
+                android:id="@+id/checkBoxQSLCardReceived" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button_save" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/buttonCancel" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

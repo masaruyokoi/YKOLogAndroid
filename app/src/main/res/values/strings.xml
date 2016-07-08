@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YKOLog</string>
+    <string name="qra">QRA</string>
+    <string name="rigs">Rigs</string>
+    <string name="callsign">Callsign</string>
+    <string name="TimeZone">TimeZone</string>
+    <string name="UTC">UTC</string>
+    <string name="LocalTime">Local Time</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+</resources>
